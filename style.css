@@ -1,3 +1,114 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a {
+   
+    color: navy;
+}
+
+h2 {
+    margin: 10px;
+}
+
+header {
+    color: aliceblue;
+    
+    background-image: url(obrazek.jpeg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.csob,
+.pa {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 20px 0 10px;
+    
+}
+
+.zkusenosti {
+    overflow: auto;
+}
+
+.vzdelani,
+.dovednosti {
+    background-color: azure;
+}
+
+p {
+    margin: 0 0 0 10px;
+}
+ul {
+    margin: 0 0 30px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightskyblue;
+
+
+}
+.menu li {
+    display: inline-block;
+    
+}
+
+.menu a {
+    padding: 20px 20px;
+    text-decoration: 0;
+    display: inline-block;
+    color: navy;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.tabulka {
+    text-align: left;
+    border-spacing: 0;
+}
+
+.obliba,
+.film,
+.cetba,
+.sport,
+.pc,
+.hudba,
+.programovani,
+.tabulky {
+    text-align: right;
+}
+
+.tabulka td {
+    border-bottom: 1px solid black;
+
+}
+.tabulka th {
+    padding-bottom: 15px;
+}
